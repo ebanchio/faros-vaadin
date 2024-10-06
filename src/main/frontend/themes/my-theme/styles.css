@@ -1,0 +1,171 @@
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    background-color: #F9F9FB;
+}
+
+.headerNavBar {
+    padding: 1em 2em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+
+.sectionLayout {
+    padding: 2em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sectionRoute {
+    font-weight: 500;
+    padding: 0;
+}
+
+.sectionContentLayout {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    flex-grow: 1;
+}
+
+/****************** TABLE STYLES ****************************/
+.employeeTable {
+    padding: 0;
+}
+
+.employeeTableAvatar {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.employeeTableName {
+    font-weight: 400;
+    font-size: 14px;
+    color: #03749C;
+}
+
+.employeeTableEmail {
+    font-weight: 400;
+    font-size: 12px;
+    color: #516B7B;
+}
+
+.employeeTableTeamTag {
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+.employeeTableStatusIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: .5em;
+}
+
+.employeeDetailStatusTag {
+    border: 1px solid #E2E8F0;
+    padding: 0.5em 1em;
+    margin: 1em;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.active {
+    color: #105E1D;
+}
+
+.activeBackground {
+    background: #C4E0B1;
+}
+
+.inactive {
+    color: #800040;
+}
+
+.inactiveBackground {
+    background: #ebccdb;
+}
+
+.employeeTableStatusIncluded {
+    font-weight: 400;
+    font-size: 14px;
+    color: #173A4F;
+}
+
+.employeeTableStatus {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.employeeTableConnectedNetwork {
+    width: 20px;
+    height: auto;
+    margin-right: .5em;
+}
+
+
+/****************** FIN: TABLE STYLES ****************************/
+
+
+
+
+/****************** DETAIL STYLES ****************************/
+.employeeDetail {
+    display: flex;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+
+.sectionTitle {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.sectionDescription {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.employeeDetailTitleLayout {
+    padding: 1em;
+    padding-bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.employeeDetailTitle {
+    font-size: 19px;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.employeeDetailButton {
+    width: 20px;
+    height: 20px;
+}
+
+.employeeDetailProfileInfo {
+    padding: 1em;
+    flex-grow: 1;
+    border-top: 1px solid #DADFF1;
+    border-bottom: 1px solid #DADFF1;
+}
+
+.employeeDetailFormField {
+    padding-top: var(--lumo-space-m);
+    width: 100%;
+}
+
+.employeeDetailButtonsLayout {
+    padding: 1em;
+}
+
+/****************** FIN: DETAIL STYLES ****************************/
+

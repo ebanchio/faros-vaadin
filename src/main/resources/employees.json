@@ -1,0 +1,2971 @@
+{
+  "data": {
+    "org_Employee_aggregate": { "aggregate": { "count": 52 } },
+    "employees": [
+      {
+        "id": "348ca0a8ff950d1bc44e3190b83a7921765da884",
+        "uid": "alastor",
+        "inactive": null,
+        "identity": {
+          "id": "b1e5db5d72cec1399139ed3ca3adf35eaab76b01",
+          "uid": "alastor",
+          "fullName": "Alastor Moody",
+          "primaryEmail": "alastor@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/e/e2/P7_Alastor_Moody.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "22c52ae992c72f0387fb5ad256915f0a4d0c6922",
+                "uid": "alastor",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "alastor" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "0b305db8262e51d47a941aa75fd29ca13b30b619",
+                "uid": "alastor",
+                "source": "Mock"
+              },
+              "identity": { "uid": "alastor" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "1bb2ea2042665f6738f38f9b62ff7ae1bc86ff05",
+                "uid": "alastor",
+                "source": "Mock"
+              },
+              "identity": { "uid": "alastor" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "e3d6a78d061206fcc4097e58df1bcc19948c39d6",
+            "team": {
+              "id": "13b3e1707a557e84c3347ffc55532e972f8a09a4",
+              "uid": "collaboration",
+              "name": "Collaboration",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "4eede4cc34f7a406060ebff2ae87b4a8a1922918",
+        "uid": "albus",
+        "inactive": null,
+        "identity": {
+          "id": "5572ee96cb7b34c18dd61212ca6503e2564aa8a8",
+          "uid": "albus",
+          "fullName": "Albus Dumbledore",
+          "primaryEmail": "albus@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "982b2f0474c2a2ac5ad642bc8bf5143317109b60",
+                "uid": "albus",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "albus" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "51b499bb7402c929be5a67da5fcf97214da1ad52",
+                "uid": "albus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "albus" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "3b04b4fa923abb43753ad09d8cc2971ff66aa70a",
+                "uid": "albus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "albus" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "d24cd2077bbde6da0f27b8da2f03d5cf3b0895f3",
+            "team": {
+              "id": "b960cbf3b9d3c944cee5ae21c7f153498432b942",
+              "uid": "all_teams",
+              "name": "all_teams",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "46fb4078edc0277c7e83ff23d65ebae2a09f7644",
+        "uid": "arthur",
+        "inactive": null,
+        "identity": {
+          "id": "2228d83cc21abaee6c981ca3980a6c545e0eab60",
+          "uid": "arthur",
+          "fullName": "Arthur Weasley",
+          "primaryEmail": "arthur@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/85/Arthur.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "dbbfe0ef063f82acf5b2945d3ae5cd555a4f80c6",
+                "uid": "arthur",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "arthur" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "172f9999757c7b9e4f9683af3bee8c19b394a1d3",
+                "uid": "arthur",
+                "source": "Mock"
+              },
+              "identity": { "uid": "arthur" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "46a5ca526e2e42bc3f542dad5c5a7eb4bdef01a9",
+                "uid": "arthur",
+                "source": "Mock"
+              },
+              "identity": { "uid": "arthur" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "5e073478d64b5a7ced4da1b37e2786a82fe1f09c",
+            "team": {
+              "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
+              "uid": "spreadsheets",
+              "name": "Spreadsheets",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "5297689246f5a8878d27224d61d708676be17920",
+        "uid": "bellatrix",
+        "inactive": null,
+        "identity": {
+          "id": "1cc0b7767495bf5e32b37c864aa8b4c8cb48f501",
+          "uid": "bellatrix",
+          "fullName": "Bellatrix Lestrange",
+          "primaryEmail": "bellatrix@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/1/14/BellatrixLestrange.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "faa52509c0bd0f0a1fab11938cbade36d035df20",
+                "uid": "bellatrix",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "bellatrix" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "4dce203829ce42bd39d7ee4ea3c510678571f3f5",
+                "uid": "bellatrix",
+                "source": "Mock"
+              },
+              "identity": { "uid": "bellatrix" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "d2172b329a28b494033f361d4a21c34aca1e5c35",
+                "uid": "bellatrix",
+                "source": "Mock"
+              },
+              "identity": { "uid": "bellatrix" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "434e746dc432e5ecee26644df43cd8e47dde7557",
+            "team": {
+              "id": "e921d3852b88a041aac084b0ae2157e78ded74d0",
+              "uid": "financial-services",
+              "name": "Financial Services",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "2a1b427df49169bbddae2d1e2b9d34f0d48d13a4",
+        "uid": "bill",
+        "inactive": null,
+        "identity": {
+          "id": "68e95375630cc58cc9a63afd7851d868a2f9e7a2",
+          "uid": "bill",
+          "fullName": "Bill Weasley",
+          "primaryEmail": "bill@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/87/P7_Bill_Weasley.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "cf81eefe26b56e5a33661a5b7c482387d66f0007",
+                "uid": "bill",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "bill" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "7b0d7c03944cb7f8983e258796452fcd65172cd0",
+                "uid": "bill",
+                "source": "Mock"
+              },
+              "identity": { "uid": "bill" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "cf7678ab1209b505d0289779c179dff12a765e24",
+                "uid": "bill",
+                "source": "Mock"
+              },
+              "identity": { "uid": "bill" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "76db6fcb5e34aa5889e919e4a91fa53d53bed50d",
+            "team": {
+              "id": "f44fe76258a113df79112659997e35148b3d4810",
+              "uid": "games",
+              "name": "Games",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "d0f49101c06a01b1df1fdb12e12459b394571c0a",
+        "uid": "cedric",
+        "inactive": null,
+        "identity": {
+          "id": "620b6b96e67d68ce660143415bfc1b4c2de4452d",
+          "uid": "cedric",
+          "fullName": "Cedric Diggory",
+          "primaryEmail": "cedric@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "b85abc5d0b728fc7a1f85844161ca13ef845e81b",
+                "uid": "cedric",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "cedric" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "18b032d24172acbd0f9fee42fece62c956aef5d1",
+                "uid": "cedric",
+                "source": "Mock"
+              },
+              "identity": { "uid": "cedric" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "083455e5de886b0bf1295150ed9e9cc752a1afaa",
+                "uid": "cedric",
+                "source": "Mock"
+              },
+              "identity": { "uid": "cedric" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "b58b01d5b72031b5ed500470759079eb9fe74849",
+            "team": {
+              "id": "30a2f7de0bed096768e6ac6457b36e20a594e3db",
+              "uid": "sales",
+              "name": "Sales",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "5dc981d96489c38ae53e84584fa1b22d298290c9",
+        "uid": "cho",
+        "inactive": null,
+        "identity": {
+          "id": "768a8bed95c920642a243afeeeb4d6b1920daa00",
+          "uid": "cho",
+          "fullName": "Cho Chang",
+          "primaryEmail": "cho@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/81/P5_Cho_Chang.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "3ca312dcf0384e2996586b83d89f8ef5797747ae",
+                "uid": "cho",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "cho" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "ca2f6a256890e9dcdfd5473711e0216cb95cc030",
+                "uid": "cho",
+                "source": "Mock"
+              },
+              "identity": { "uid": "cho" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "f7bc4e891a88366b8b3703f20a089e2433b5b512",
+                "uid": "cho",
+                "source": "Mock"
+              },
+              "identity": { "uid": "cho" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "44b2a43b906d224b77d0aabd280a31c74c4c1593",
+            "team": {
+              "id": "25a4cd28a7c7693412ecdc5da6982d53e45117f0",
+              "uid": "tooling",
+              "name": "Tooling",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "eb641b7c2385b6ad6a062f9497c67f0b518897f4",
+        "uid": "cornelius",
+        "inactive": null,
+        "identity": {
+          "id": "4c61fa5864ac4bae79443781010ef987a91ef912",
+          "uid": "cornelius",
+          "fullName": "Cornelius Fudge",
+          "primaryEmail": "cornelius@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/e/e6/Cornelius_Fudge_1994_.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "519b7d116a558cb1310f54958435a38a12f238f9",
+                "uid": "cornelius",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "cornelius" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "88e4b6df65dbdc2d5bd31093ac9b4d8eeecb2b08",
+                "uid": "cornelius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "cornelius" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "513bc4442a0c6c6dd6ad234c05ca09fc2a7c4396",
+                "uid": "cornelius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "cornelius" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "35d6e51eea9d06404451b3a982706783d82f4ed2",
+            "team": {
+              "id": "dead4190347bd99adbb499d3e1e5f21a9c860770",
+              "uid": "marketing",
+              "name": "Marketing",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "f11aacd3bbb713f6acb033f17d28cd22e37d0f0b",
+        "uid": "dobby",
+        "inactive": null,
+        "identity": {
+          "id": "be633dc311d0308b88da444719b9f61a1aa7fd97",
+          "uid": "dobby",
+          "fullName": "Dobby",
+          "primaryEmail": "dobby@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/2/2d/Dobby_el_elfo.PNG",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "e2e72abddbcd7acd1e26269e998ae04463914ad7",
+                "uid": "dobby",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "dobby" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "676376ca02e9d80e7d2941e707cf06f5bc9e43ea",
+                "uid": "dobby",
+                "source": "Mock"
+              },
+              "identity": { "uid": "dobby" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "edfaec0d0becb1e57b66835a62acd4c97d1fc668",
+                "uid": "dobby",
+                "source": "Mock"
+              },
+              "identity": { "uid": "dobby" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "75171f95cdbe73ae9c7ceec9c52288e663cd9bc9",
+            "team": {
+              "id": "22b11c11cd9c80e9a39f302acbcc38c6c8d8c789",
+              "uid": "word-processing",
+              "name": "Word Processing",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "e81626d7d657cb8fe86c9ab189c58b01916543c5",
+        "uid": "dolores",
+        "inactive": null,
+        "identity": {
+          "id": "78c453e87e201f60064add3734c635a774b0e947",
+          "uid": "dolores",
+          "fullName": "Dolores Umbridge",
+          "primaryEmail": "dolores@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/d/db/Dolores_Umbridge_1996.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "bd78751d6524f0918b3ffa4d8b82f0585e4268b0",
+                "uid": "dolores",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "dolores" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "b2baa4a992d72de41f437cf27ec61926eb80d63e",
+                "uid": "dolores",
+                "source": "Mock"
+              },
+              "identity": { "uid": "dolores" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "d55422424bbb5ef35ccf4f39deba66071bc7d8ee",
+                "uid": "dolores",
+                "source": "Mock"
+              },
+              "identity": { "uid": "dolores" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "d7cf2fded80c2b1ebb77adfaac1d3c2d422db118",
+            "team": {
+              "id": "b0733008074b5fb65385d594b1f9d204f6abd00c",
+              "uid": "browser",
+              "name": "Browser",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "5dba294b855f836d519640164c435b4ab8550d04",
+        "uid": "draco",
+        "inactive": null,
+        "identity": {
+          "id": "24e49e5596a07a70867da92911c6beef7695f419",
+          "uid": "draco",
+          "fullName": "Draco Malfoy",
+          "primaryEmail": "draco@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "75f59b124770076c3d307a935f2fba264643f06c",
+                "uid": "draco",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "draco" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "4e3d7ebf239effd1af78a97270917015b981950d",
+                "uid": "draco",
+                "source": "Mock"
+              },
+              "identity": { "uid": "draco" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "b45433e46e75825deda4c67469b06151c2b0dc04",
+                "uid": "draco",
+                "source": "Mock"
+              },
+              "identity": { "uid": "draco" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "042e497eeda980097f3e4bd1b40fa3593774db1c",
+            "team": {
+              "id": "5dfbca946df818cfd17dae1238e606d235e6333e",
+              "uid": "crm",
+              "name": "CRM",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "7320f038c91fc85c2d3a22099bdfbfe7a96a4502",
+        "uid": "dudley",
+        "inactive": null,
+        "identity": {
+          "id": "3f27eb3055d567a9c4f1cd9f4034013369c91926",
+          "uid": "dudley",
+          "fullName": "Dudley Dursley",
+          "primaryEmail": "dudley@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/6/63/HPDudleyDursley.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "1d85704c89bef9c4bff281b2377cfc9cfeeef3b0",
+                "uid": "dudley",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "dudley" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "57a1dc396a0c910c3f053a9c4a57deb7d9471926",
+                "uid": "dudley",
+                "source": "Mock"
+              },
+              "identity": { "uid": "dudley" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "e9ac2573a5c83624d5a94d925c458112e298c9ca",
+                "uid": "dudley",
+                "source": "Mock"
+              },
+              "identity": { "uid": "dudley" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "fe44f5bdf65335166a11a034535feb32cc3d9d22",
+            "team": {
+              "id": "add364f4cc10c5c3cb5bd27bc07b76ae02948ec4",
+              "uid": "productivity",
+              "name": "Productivity",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "ef034c15dd550c0d4b48b110c40ad1505a89bff0",
+        "uid": "elphias",
+        "inactive": null,
+        "identity": {
+          "id": "e6817ce8cb2f7ccad5a818840cfca0b7abca124b",
+          "uid": "elphias",
+          "fullName": "Elphias Doge",
+          "primaryEmail": "elphias@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/2/2a/P7_Elphias_Doge_en_1997.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "c7e679fd34137fe7134474fd41ae7bba0252b8c1",
+                "uid": "elphias",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "elphias" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "15927f5fe6ddcea65bb5d46ea1af8c1b76dc24ba",
+                "uid": "elphias",
+                "source": "Mock"
+              },
+              "identity": { "uid": "elphias" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "1efdf37d9fe9ac0a6ab212a3f251502d3d609e8d",
+                "uid": "elphias",
+                "source": "Mock"
+              },
+              "identity": { "uid": "elphias" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "59041c91c0f861c9965d9a9d2d88186ecff4ca8a",
+            "team": {
+              "id": "f44fe76258a113df79112659997e35148b3d4810",
+              "uid": "games",
+              "name": "Games",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "a6bbd7b6a57d3f92412b18d50b2fbfe15bade9c6",
+        "uid": "filius",
+        "inactive": null,
+        "identity": {
+          "id": "3cffe6387d175cb2be15b70001d94950c6452764",
+          "uid": "filius",
+          "fullName": "Filius Flitwick",
+          "primaryEmail": "filius@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/e/eb/P7_Filius_Flitwick.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "814b094e715b26f046f508159f3f0278b8ed346c",
+                "uid": "filius",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "filius" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "fa09b0e46a4de792ead9c03b80860117556eba82",
+                "uid": "filius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "filius" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "8430308798b9126a48c26c14f68ad3232d9775eb",
+                "uid": "filius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "filius" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "e055f1ff8c76abbbec8f2232723b89af81831322",
+            "team": {
+              "id": "30a2f7de0bed096768e6ac6457b36e20a594e3db",
+              "uid": "sales",
+              "name": "Sales",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "62efc220b321ea5390262f3caf7364849d6c7993",
+        "uid": "fleur",
+        "inactive": null,
+        "identity": {
+          "id": "a3cb8fbe50255bc92ff871748e2e4afd2ab972f3",
+          "uid": "fleur",
+          "fullName": "Fleur Delacour",
+          "primaryEmail": "fleur@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/d/dd/P7_Fleur_con_la_tiara.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "8da724130d22e093ce8e50ce132f0494d8543190",
+                "uid": "fleur",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "fleur" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "0146740d24059671dc62cc554d8af97df4d1c218",
+                "uid": "fleur",
+                "source": "Mock"
+              },
+              "identity": { "uid": "fleur" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "5e4aa1678910738cabd09d2837b5338f3ef21316",
+                "uid": "fleur",
+                "source": "Mock"
+              },
+              "identity": { "uid": "fleur" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "cd7310b8825eb574a65efe0b83ecce60689c6323",
+            "team": {
+              "id": "b0733008074b5fb65385d594b1f9d204f6abd00c",
+              "uid": "browser",
+              "name": "Browser",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "55bebc8cee8add64b8dd5662ccc77e558db226fa",
+        "uid": "fred",
+        "inactive": null,
+        "identity": {
+          "id": "40ad366c4d834a52df19da4cc9d43f9e9cc3fb62",
+          "uid": "fred",
+          "fullName": "Fred Weasley",
+          "primaryEmail": "fred@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/1/18/PHELPS2-1.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "65e755fadb4b0bfc57a2a57ef2d414b0eaaca0e1",
+                "uid": "fred",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "fred" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "10c2e6a7732e82b6777fcefea2e515c35a440b9e",
+                "uid": "fred",
+                "source": "Mock"
+              },
+              "identity": { "uid": "fred" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "c607c6cb71bbc5602d6cb859556f202b571b666a",
+                "uid": "fred",
+                "source": "Mock"
+              },
+              "identity": { "uid": "fred" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "2070ceebe27c1ec3e33b738076837385277a4d70",
+            "team": {
+              "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
+              "uid": "chat",
+              "name": "Chat",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "c489da15efd1cb90775e0eca2d1a49b7b18c7b95",
+        "uid": "george",
+        "inactive": null,
+        "identity": {
+          "id": "9b86932088f405475656f205e3ae2cf75f349ce1",
+          "uid": "george",
+          "fullName": "George Weasley",
+          "primaryEmail": "george@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/1/1a/250px-PHELPS2.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "da7ea42051d62ec7374368df6c7c9d8b5f17ad47",
+                "uid": "george",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "george" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "f042758da70ae40f68806b20fb18c542f39e6541",
+                "uid": "george",
+                "source": "Mock"
+              },
+              "identity": { "uid": "george" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "8a4c7d134ed981f3aa8f15f725a7311cf0a0ac5c",
+                "uid": "george",
+                "source": "Mock"
+              },
+              "identity": { "uid": "george" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "72b04dcea756aa9d1d19aeaa4c3808ae89a40755",
+            "team": {
+              "id": "36d38cf1a764af48f75935eb8e7243de24eb7525",
+              "uid": "email",
+              "name": "Email",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "a755e9a9ba9e6195fda10fe078fc8cef8e26de27",
+        "uid": "gilderoy",
+        "inactive": null,
+        "identity": {
+          "id": "54e48912de41a15a48e9cd7a32a082cf3936d781",
+          "uid": "gilderoy",
+          "fullName": "Gilderoy Lockhart",
+          "primaryEmail": "gilderoy@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/Gilderoy_Lockhart_promotional_image_COSF.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "4e0bb91ade8bb3b552ad3618b7e2fbb4ef772f68",
+                "uid": "gilderoy",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "gilderoy" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "637995fe844f4b54ebefb6cf70b33bcfa22ccbd6",
+                "uid": "gilderoy",
+                "source": "Mock"
+              },
+              "identity": { "uid": "gilderoy" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "ec3bc83109e16369de4b97870d718ee51e307eb3",
+                "uid": "gilderoy",
+                "source": "Mock"
+              },
+              "identity": { "uid": "gilderoy" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "f3a99b7a7e2935a406add65198f3e50ca8a735ca",
+            "team": {
+              "id": "36d38cf1a764af48f75935eb8e7243de24eb7525",
+              "uid": "email",
+              "name": "Email",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "d215a8dd8bd55fcb26cd452bc44aee16921e6b22",
+        "uid": "ginny",
+        "inactive": null,
+        "identity": {
+          "id": "7b0838a22947d2585f8324ff535066d6896ad722",
+          "uid": "ginny",
+          "fullName": "Ginny Weasley",
+          "primaryEmail": "ginny@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/Ginny_Weasley_hbp_promo.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "85d4155809e5c9b34af22cb24f6fb405ab99f46c",
+                "uid": "ginny",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "ginny" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "2c2330c96aae2f63d055a618334a3712aae77f87",
+                "uid": "ginny",
+                "source": "Mock"
+              },
+              "identity": { "uid": "ginny" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "1efe65bbf2a2082db5b4d9453fd715404614c32d",
+                "uid": "ginny",
+                "source": "Mock"
+              },
+              "identity": { "uid": "ginny" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "659de8e3a5637d1b2cd19ae3c52e4cb02c1f5088",
+            "team": {
+              "id": "2c184ee95c512427b7a05e6cd71e9a3c7ba8de6f",
+              "uid": "consumer-goods",
+              "name": "Consumer Goods",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "0394223a928435025d59809fcc097e6ea5fc04be",
+        "uid": "gregory",
+        "inactive": null,
+        "identity": {
+          "id": "7d0f172a0371893e15a336ba315f75c4e12780d5",
+          "uid": "gregory",
+          "fullName": "Gregory Goyle",
+          "primaryEmail": "gregory@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/e/e7/Gregory_Goyle_DH2.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "323a67b72d9fba5b14f9fbaa566199d21aa35b7c",
+                "uid": "gregory",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "gregory" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "fa9f1a2bb78b550c36ae14a77bcb78974c90a190",
+                "uid": "gregory",
+                "source": "Mock"
+              },
+              "identity": { "uid": "gregory" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "bb02732cb67a93c50f7a21261e6924a06798b6da",
+                "uid": "gregory",
+                "source": "Mock"
+              },
+              "identity": { "uid": "gregory" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "87a9ce9aca11d9cc02f9ee4d0664c6a545498f10",
+            "team": {
+              "id": "e921d3852b88a041aac084b0ae2157e78ded74d0",
+              "uid": "financial-services",
+              "name": "Financial Services",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "089c221a7c3e1f976950d80e20813ea24ffdbf73",
+        "uid": "harry",
+        "inactive": null,
+        "identity": {
+          "id": "34d15c2a958a7e1aabc08b22dbba00cf407bb4ad",
+          "uid": "harry",
+          "fullName": "Harry Potter",
+          "primaryEmail": "harry@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/9/97/Harry_Potter.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "c6c18d32c3816fa253ec484f093afed7f43b17e8",
+                "uid": "harry",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "harry" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "4eff27249676b55085fde8aa37b44112f6d4f04a",
+                "uid": "harry",
+                "source": "Mock"
+              },
+              "identity": { "uid": "harry" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "9e8af444a52702d80bb04ffd8fd3b6b8784c1100",
+                "uid": "harry",
+                "source": "Mock"
+              },
+              "identity": { "uid": "harry" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "5590ad5d32ae77e04803777f20ec75b795a46928",
+            "team": {
+              "id": "64c70327e15a191c3eb879088c53591ae8f1aad0",
+              "uid": "industries",
+              "name": "Industries",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "1eddeab865466298ec4aefc1ded78c8ad88e7062",
+        "uid": "helga",
+        "inactive": null,
+        "identity": {
+          "id": "6f49a342be2c0d09158be8d4ece13a449eee99cc",
+          "uid": "helga",
+          "fullName": "Helga Hufflepuff",
+          "primaryEmail": "helga@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/PM_HelgaHufflepuff_Founders.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "3b6c1633e8d6b94b8f7e76ee05df8eb07e4f8035",
+                "uid": "helga",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "helga" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "a501c5ac18412d4dc69e9960b9c564572b7352f0",
+                "uid": "helga",
+                "source": "Mock"
+              },
+              "identity": { "uid": "helga" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "2db3d65c99661bced4d43826c14fdca5065ca97f",
+                "uid": "helga",
+                "source": "Mock"
+              },
+              "identity": { "uid": "helga" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "2ec6a76f6fc3f5dee8963d787a04c53b22c26baa",
+            "team": {
+              "id": "dead4190347bd99adbb499d3e1e5f21a9c860770",
+              "uid": "marketing",
+              "name": "Marketing",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "96002c21989ef93c53891e722ced841ad5ce41b1",
+        "uid": "hermione",
+        "inactive": null,
+        "identity": {
+          "id": "a5e714e7b074eeda7f5f75ce89808d039ffa2e96",
+          "uid": "hermione",
+          "fullName": "Hermione Granger",
+          "primaryEmail": "hermione@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/3/34/Hermione_Granger.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "bbc0757a9bc8158078456da444d61f7fbb846e5c",
+                "uid": "hermione",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "hermione" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "427ef3733380da5d92f6ed421e49c6962e9c2aac",
+                "uid": "hermione",
+                "source": "Mock"
+              },
+              "identity": { "uid": "hermione" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "f4a5806a66dae2c7d90f9ff822b7f2500d3912cd",
+                "uid": "hermione",
+                "source": "Mock"
+              },
+              "identity": { "uid": "hermione" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "ced4d6ab1f29fd0dd7960ea2bdc9956ae14a477a",
+            "team": {
+              "id": "938c4634824ee173a8d4416b362e46b175c09cef",
+              "uid": "consumer",
+              "name": "Consumer",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "a8e92ce194cee000a643dd04fb79872107250cfe",
+        "uid": "horace",
+        "inactive": null,
+        "identity": {
+          "id": "490a9ed978f442a4185abe096f0922269f567549",
+          "uid": "horace",
+          "fullName": "Horace Slughorn",
+          "primaryEmail": "horace@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/e/e0/Horace_Slughorn.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "cb2f7ba5d3b4ce2cce3c0574b3ce144e9f544843",
+                "uid": "horace",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "horace" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "57f025ba38b635df924acadc85d466893e295913",
+                "uid": "horace",
+                "source": "Mock"
+              },
+              "identity": { "uid": "horace" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "bb0fc31d75a0465cfd8fdc1fdcdff6d21b63e46b",
+                "uid": "horace",
+                "source": "Mock"
+              },
+              "identity": { "uid": "horace" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "95832c8deed440a57ef94159cf1b35e79d540efd",
+            "team": {
+              "id": "e921d3852b88a041aac084b0ae2157e78ded74d0",
+              "uid": "financial-services",
+              "name": "Financial Services",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "7abbaccc19d662c1dfcdda3ae287e0cd21ce76c6",
+        "uid": "igor",
+        "inactive": null,
+        "identity": {
+          "id": "8514870f810f22afed00268c7c08dc719fdedc2c",
+          "uid": "igor",
+          "fullName": "Igor Karkaraoff",
+          "primaryEmail": "igor@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/0/09/Igor_Karkarov_imagen_promocional_Harry_Potter_4_el_C%C3%A1liz_de_Fuego_.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "ce404eff89f7de16017a8ca88b3f17adfab95d60",
+                "uid": "igor",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "igor" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "b1de29f1cee67e8602b04b7bad3b45d0d744679b",
+                "uid": "igor",
+                "source": "Mock"
+              },
+              "identity": { "uid": "igor" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "8f542399fc4c7464eaeb847c431819fec1385467",
+                "uid": "igor",
+                "source": "Mock"
+              },
+              "identity": { "uid": "igor" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "2cced0bf52c077d380c18686c18818206712abbb",
+            "team": {
+              "id": "2edd826c3df2048f8d82128826ac49cfb32958af",
+              "uid": "slideshow",
+              "name": "Slideshow",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "0e355fb431c936c40a03d4c063f44fe31f2c174c",
+        "uid": "irma",
+        "inactive": null,
+        "identity": {
+          "id": "261f3858084b0d617b29f9fc8ae30b8e0843d71c",
+          "uid": "irma",
+          "fullName": "Irma Pince",
+          "primaryEmail": "irma@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/c/ce/Madam_Irma_Prince.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "13525ff788b2ceb8f7cd65ae5ecde3162f8fa8b3",
+                "uid": "irma",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "irma" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "bb46af9e8e9713ecc5387eb15e33c936355c373f",
+                "uid": "irma",
+                "source": "Mock"
+              },
+              "identity": { "uid": "irma" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "962a3196ac6fea13b09b3c7bad354d9ccaf03f29",
+                "uid": "irma",
+                "source": "Mock"
+              },
+              "identity": { "uid": "irma" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "94cdb334f86cc12794abba48901916df749fde87",
+            "team": {
+              "id": "25a4cd28a7c7693412ecdc5da6982d53e45117f0",
+              "uid": "tooling",
+              "name": "Tooling",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "c0e7725226b335128b220b1ba50af9718592b2f8",
+        "uid": "katie",
+        "inactive": null,
+        "identity": {
+          "id": "a48e668376bb7d9f2368255b55d0215b272dd743",
+          "uid": "katie",
+          "fullName": "Katie Bell",
+          "primaryEmail": "katie@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/d/d8/P7_Katie_Bell.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "f306285c0b46ed4d3bf0901182d82696c4e16af7",
+                "uid": "katie",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "katie" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "0bd515b644a723f3836a7d345d1e6b26761e59a8",
+                "uid": "katie",
+                "source": "Mock"
+              },
+              "identity": { "uid": "katie" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "205d3d6ef0a9cb2b86809d9f229f6de24bc19419",
+                "uid": "katie",
+                "source": "Mock"
+              },
+              "identity": { "uid": "katie" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "7c0a8c2f4d9e9fed000679e6210e7156ba87928f",
+            "team": {
+              "id": "2c184ee95c512427b7a05e6cd71e9a3c7ba8de6f",
+              "uid": "consumer-goods",
+              "name": "Consumer Goods",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "92eb6549606ace05d258812c323cf5ddce96a0f2",
+        "uid": "lavender",
+        "inactive": null,
+        "identity": {
+          "id": "53948c4a703b085ea40462f01ff90572cc740eaa",
+          "uid": "lavender",
+          "fullName": "Lavender Brown",
+          "primaryEmail": "lavender@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/5/57/LavenderBrown.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "03b2a462221870c3455d1e6e3a0335934fce39b3",
+                "uid": "lavender",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "lavender" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "2d8ac130fdeec9ca0b8be1b2e5b702f42fa108d3",
+                "uid": "lavender",
+                "source": "Mock"
+              },
+              "identity": { "uid": "lavender" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "9963cdb2d4d63262170bd947bbb61c2e0b7c218e",
+                "uid": "lavender",
+                "source": "Mock"
+              },
+              "identity": { "uid": "lavender" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "5786d5a007809f0beaced5e7c543450c0d2d9817",
+            "team": {
+              "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
+              "uid": "chat",
+              "name": "Chat",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "07521306b90f1001fd983c04affd17033b4844f1",
+        "uid": "lucius",
+        "inactive": null,
+        "identity": {
+          "id": "27613ef4283321053f35dc20afa1c736acc0e149",
+          "uid": "lucius",
+          "fullName": "Lucius Malfoy",
+          "primaryEmail": "lucius@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/c/cf/Lucius_1998.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "8777350287d7c8607c435ee64e16899a9411d025",
+                "uid": "lucius",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "lucius" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "cc50f85fc7cd9de4862ce1024dae413e6c573d0b",
+                "uid": "lucius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "lucius" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "144b0c6dceae37c6405d5f1b439bc33b3afdf56e",
+                "uid": "lucius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "lucius" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "7de9263b48ff343e998b36806e8f9787dc86b695",
+            "team": {
+              "id": "a80d4af4ea2ddd7dd78a26e362bf59bd67d737d9",
+              "uid": "products",
+              "name": "Products",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "fd420fe71cd628c3e9a31facba6804d58b8d8071",
+        "uid": "luna",
+        "inactive": null,
+        "identity": {
+          "id": "df93d396aefa73cc19568ccbf904ab9c7e3cc6c6",
+          "uid": "luna",
+          "fullName": "Luna Lovegood",
+          "primaryEmail": "luna@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/e/ed/Luna_Lovegood.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "c1aa884e3a0437c7f1f9b52a4b738cef4eeee330",
+                "uid": "luna",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "luna" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "081cbf4d5b3cb5daef803ee527b9d8ba1424ba10",
+                "uid": "luna",
+                "source": "Mock"
+              },
+              "identity": { "uid": "luna" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "f7d4c3775f572c09586b41fa5c5c11cadf91bd20",
+                "uid": "luna",
+                "source": "Mock"
+              },
+              "identity": { "uid": "luna" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "57244469d11158484c0181fbcfc661b590d2ad6a",
+            "team": {
+              "id": "444161dd8e10ff66834dc8f9718f3129302bf528",
+              "uid": "enterprise",
+              "name": "Enterprise",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "07ba77dc732861e50039969badaa9574e4eba0f3",
+        "uid": "minerva",
+        "inactive": null,
+        "identity": {
+          "id": "f387b73ddf34f0c1d80b0aa6757f9d8d7e337bab",
+          "uid": "minerva",
+          "fullName": "Minerva McGonagall",
+          "primaryEmail": "minerva@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/6/65/ProfessorMcGonagall-HBP.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "8fcba04898817fb400e16fe1d36e0126aeba92bf",
+                "uid": "minerva",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "minerva" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "8160dc20c3db228984389c3a0090787288515b50",
+                "uid": "minerva",
+                "source": "Mock"
+              },
+              "identity": { "uid": "minerva" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "74944ba8181d5d805f45238fe9d68ff4a1c91046",
+                "uid": "minerva",
+                "source": "Mock"
+              },
+              "identity": { "uid": "minerva" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "cf449ff455a9ac1da82610d751c1f22d17609ed8",
+            "team": {
+              "id": "17b690bbdf95689742bef95bb6aff42d391be5fd",
+              "uid": "desktop",
+              "name": "Desktop",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "16d08ccf5ee09535f04734dc64ee167cd55864a8",
+        "uid": "molly",
+        "inactive": null,
+        "identity": {
+          "id": "b2e91afee00a3dbe11747330636ed0cf5851e6b4",
+          "uid": "molly",
+          "fullName": "Molly Weasley",
+          "primaryEmail": "molly@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/1/15/MOLLY1.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "7fba7694bd7963a1673e03ff213899f5ee41afe9",
+                "uid": "molly",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "molly" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "9fff2db3e5f8f51c3f2b1ea6e1d4478a1f218f3f",
+                "uid": "molly",
+                "source": "Mock"
+              },
+              "identity": { "uid": "molly" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "6352d41147531bd264fa53c4c582e6fe248c5b92",
+                "uid": "molly",
+                "source": "Mock"
+              },
+              "identity": { "uid": "molly" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "1a5dbdfe0916f185741e02ee24a04fb41fbd2633",
+            "team": {
+              "id": "f44fe76258a113df79112659997e35148b3d4810",
+              "uid": "games",
+              "name": "Games",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "946a289d15461dd105a6e4035da14a4b8d067355",
+        "uid": "neville",
+        "inactive": null,
+        "identity": {
+          "id": "d6f81d62d5643cc811db78308b804c2d3df7cd1f",
+          "uid": "neville",
+          "fullName": "Neville Longbottom",
+          "primaryEmail": "neville@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/0/04/Harry-potter-and-the-deathly-hallowspart-2.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "97b988de80efc511345c0eb899de30b7ed5be44b",
+                "uid": "neville",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "neville" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "bcc0e7a8c07352d3151456595e7fd4be4e5ae823",
+                "uid": "neville",
+                "source": "Mock"
+              },
+              "identity": { "uid": "neville" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "dd27599d566279a4aefc813203ef5c0f717ddc04",
+                "uid": "neville",
+                "source": "Mock"
+              },
+              "identity": { "uid": "neville" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "8438ce0daa246df216e94dc73442dec1024ec0c1",
+            "team": {
+              "id": "30a2f7de0bed096768e6ac6457b36e20a594e3db",
+              "uid": "sales",
+              "name": "Sales",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "8293becf0d1fd9a798ccbb0781ab006fba0d538e",
+        "uid": "nymphadora",
+        "inactive": null,
+        "identity": {
+          "id": "cf00fe0263a1cf24f374ae7ed968bcbdd08dfca1",
+          "uid": "nymphadora",
+          "fullName": "Nymphadora Tonks",
+          "primaryEmail": "nymphadora@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Nymphadora_Tonks_DH_promo_headshot_.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "b7b2b30e62262d7178ca615e1584df2a203f4f1c",
+                "uid": "nymphadora",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "nymphadora" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "ac6686bf13d4783861ef46d118a5676b27bb87db",
+                "uid": "nymphadora",
+                "source": "Mock"
+              },
+              "identity": { "uid": "nymphadora" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "02585077430057e72b07ba5922ec4d0e0e77d6bf",
+                "uid": "nymphadora",
+                "source": "Mock"
+              },
+              "identity": { "uid": "nymphadora" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "6fc2cf1c5980e2f84db67abf3da2e8ae34797c28",
+            "team": {
+              "id": "2c184ee95c512427b7a05e6cd71e9a3c7ba8de6f",
+              "uid": "consumer-goods",
+              "name": "Consumer Goods",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "6d2501a985d5aae892bdd5a8b7b0ecd64feb82dd",
+        "uid": "padma",
+        "inactive": null,
+        "identity": {
+          "id": "e8bfbe551aa361c8c5617115a83b560df3d76223",
+          "uid": "padma",
+          "fullName": "Padma Patil",
+          "primaryEmail": "padma@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/4/45/PadmaPatil.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "0da1e64d2a9307bffe4b0080ce9ea95edf08ba5f",
+                "uid": "padma",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "padma" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "fce48716c024241f9e0486c13bb5ca224453568f",
+                "uid": "padma",
+                "source": "Mock"
+              },
+              "identity": { "uid": "padma" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "c8bf457d7857ab39e117e4d7ff447f8d3fe0e684",
+                "uid": "padma",
+                "source": "Mock"
+              },
+              "identity": { "uid": "padma" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "924df82d279f623012966dc2e84f92377883dc9f",
+            "team": {
+              "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
+              "uid": "chat",
+              "name": "Chat",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "7995377071463879fb3b67c65aa34a981eb0b6e4",
+        "uid": "parvati",
+        "inactive": null,
+        "identity": {
+          "id": "fa121bcebb830d1c757cf390a129bfd765c578ef",
+          "uid": "parvati",
+          "fullName": "Parvati Patil",
+          "primaryEmail": "parvati@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/2/23/P5_Parvati_Patil.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "bb28b5504c410afa4ef858a169f28ddcd4964454",
+                "uid": "parvati",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "parvati" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "265b1d635a9706e008f74d3a089305a40dc82a44",
+                "uid": "parvati",
+                "source": "Mock"
+              },
+              "identity": { "uid": "parvati" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "34ffa72174485fb0ccc4d29eb48f3170772dd1f4",
+                "uid": "parvati",
+                "source": "Mock"
+              },
+              "identity": { "uid": "parvati" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "5a880b8742e16c1e23cde538e89dbf1a83f440e5",
+            "team": {
+              "id": "36d38cf1a764af48f75935eb8e7243de24eb7525",
+              "uid": "email",
+              "name": "Email",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "eb1f3fca7f722c1f741ba5789e63cf10a1dcd6ac",
+        "uid": "percy",
+        "inactive": null,
+        "identity": {
+          "id": "e026c3c01beb353d4dfc77d4ffc851766231378f",
+          "uid": "percy",
+          "fullName": "Percy Weasley",
+          "primaryEmail": "percy@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/85/P5_Percy_Weasley.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "26b9f0ee36a4b20dec8d1fa1e60f6c57d0a87468",
+                "uid": "percy",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "percy" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "bf7f9927686b21d74fd7d72162990179ae2ef250",
+                "uid": "percy",
+                "source": "Mock"
+              },
+              "identity": { "uid": "percy" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "bc072d794b38c3f5897bd91253ce81f2ff823e30",
+                "uid": "percy",
+                "source": "Mock"
+              },
+              "identity": { "uid": "percy" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "6a776c639b85892d4768f92be046d102935a4ff6",
+            "team": {
+              "id": "2c184ee95c512427b7a05e6cd71e9a3c7ba8de6f",
+              "uid": "consumer-goods",
+              "name": "Consumer Goods",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "20efcb4ffa4ad00fba7eba41b8a08b2a71a1fc6e",
+        "uid": "peter",
+        "inactive": null,
+        "identity": {
+          "id": "3526ef13c0a00b914a2f296f8c102743b7cdd65a",
+          "uid": "peter",
+          "fullName": "Peter Pettigrew",
+          "primaryEmail": "peter@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/7/7c/Peter_Pettigrew.PNG",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "5fef6ce7b4e038d7a6086cfadf94579a3c648a02",
+                "uid": "peter",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "peter" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "825c94bc39d62fe8c7fa79f7743fe9a62d5711fd",
+                "uid": "peter",
+                "source": "Mock"
+              },
+              "identity": { "uid": "peter" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "2521911a5eaa9f1b2b634dcbe521cad578ba71aa",
+                "uid": "peter",
+                "source": "Mock"
+              },
+              "identity": { "uid": "peter" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "d8b4a941478d8f21545d3867d91078b29d7c056b",
+            "team": {
+              "id": "140fdb7bc20b003236272c74aa87e487dced0a62",
+              "uid": "chat",
+              "name": "Chat",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "7cd1c1f181d03a8283b2efb55f253369020579f7",
+        "uid": "petunia",
+        "inactive": null,
+        "identity": {
+          "id": "d41b4b9873b13d477caab29e9b0a31ffac23b328",
+          "uid": "petunia",
+          "fullName": "Petunia Dursley",
+          "primaryEmail": "petunia@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/6/64/Petunia_DH1.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "c82e281c37aee1ee5cfb5873360acac90ee26e1c",
+                "uid": "petunia",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "petunia" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "3ad66825d49a1c0f9a1a17c8207877c8eedbebb1",
+                "uid": "petunia",
+                "source": "Mock"
+              },
+              "identity": { "uid": "petunia" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "ff66a39556fc2b8c657f50e8354c528f82d17429",
+                "uid": "petunia",
+                "source": "Mock"
+              },
+              "identity": { "uid": "petunia" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "9b465c74720c4e50e3cf9424ca4b5331ec757e47",
+            "team": {
+              "id": "2c184ee95c512427b7a05e6cd71e9a3c7ba8de6f",
+              "uid": "consumer-goods",
+              "name": "Consumer Goods",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "5cb8c4094edacfd8bef1ae8698061cc739a812ee",
+        "uid": "pomona",
+        "inactive": null,
+        "identity": {
+          "id": "17e13be2f5cd25e6622119846d605a6b45d7406b",
+          "uid": "pomona",
+          "fullName": "Pomona Sprout",
+          "primaryEmail": "pomona@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/d/d1/P7_Pomona_Sprout.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "83f69b2beefc166b8d5c2a047b7f23faf5f8db4b",
+                "uid": "pomona",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "pomona" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "37b17bda4e3e738209a0e084de07d7acd840d554",
+                "uid": "pomona",
+                "source": "Mock"
+              },
+              "identity": { "uid": "pomona" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "f06042e867d166b4331ae402ca2d43e79e3738ac",
+                "uid": "pomona",
+                "source": "Mock"
+              },
+              "identity": { "uid": "pomona" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "b9136bc127436bc782d3df85e930474e0108a677",
+            "team": {
+              "id": "b0733008074b5fb65385d594b1f9d204f6abd00c",
+              "uid": "browser",
+              "name": "Browser",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "13ffe15cfc8f2f9b16017da0c62ec18e0f2da4fd",
+        "uid": "remus",
+        "inactive": null,
+        "identity": {
+          "id": "7a613d704175d257cf7aae857eb2148c7f7b44d5",
+          "uid": "remus",
+          "fullName": "Remus Lupin",
+          "primaryEmail": "remus@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/e/e2/Remus_Lupin_Deathly_Hallows_promo_image.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "8aadbc82be37734f6edd69fa726ffc669212ef0c",
+                "uid": "remus",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "remus" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "ae15d51da41ea7cfa262fc10bdc7226e857785b7",
+                "uid": "remus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "remus" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "b6debdb0c97c89d7d03b4b673c4afb2c0fcce888",
+                "uid": "remus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "remus" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "0af90dc7cdedd0895b2dcabbad22dd9248427193",
+            "team": {
+              "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
+              "uid": "spreadsheets",
+              "name": "Spreadsheets",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "c737cf3a5b2050920bfea5ad67bd3852218a6a82",
+        "uid": "rita",
+        "inactive": null,
+        "identity": {
+          "id": "9afcbb07a94565694689e77a8184bf084cf00548",
+          "uid": "rita",
+          "fullName": "Rita Skeeter",
+          "primaryEmail": "rita@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/9/91/Skeeter2.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "700ca1600c01a24bc386c35cf3ebff3b44c55726",
+                "uid": "rita",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "rita" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "46b3bf8d50a4b15f5f543989b5b69c3dfe4eac0e",
+                "uid": "rita",
+                "source": "Mock"
+              },
+              "identity": { "uid": "rita" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "e0ce5022603413a9a0b9d7301d4ad1feca3483f2",
+                "uid": "rita",
+                "source": "Mock"
+              },
+              "identity": { "uid": "rita" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "ff3e5cc67af7a2c38d38e68f6e11126eabbb84bf",
+            "team": {
+              "id": "25a4cd28a7c7693412ecdc5da6982d53e45117f0",
+              "uid": "tooling",
+              "name": "Tooling",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "6d2be6e3023b5c788fe53c5e5013149eeb00ebe7",
+        "uid": "ron",
+        "inactive": null,
+        "identity": {
+          "id": "c54bdb761f69125d2955408aed46168b9d7dd035",
+          "uid": "ron",
+          "fullName": "Ron Weasly",
+          "primaryEmail": "ron@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/8/85/Ron_Weasley.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "510d0f0b3acc48c9fced4e0624e6f86332a070b5",
+                "uid": "ron",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "ron" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "c7f5d8ff1da3832283b7598204ea3aa99123564a",
+                "uid": "ron",
+                "source": "Mock"
+              },
+              "identity": { "uid": "ron" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "72286847f51c0224989c65e7c3d0a00d84f2e179",
+                "uid": "ron",
+                "source": "Mock"
+              },
+              "identity": { "uid": "ron" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "81deaabf64e0ce663ebbef38c2a4182904727d97",
+            "team": {
+              "id": "dead4190347bd99adbb499d3e1e5f21a9c860770",
+              "uid": "marketing",
+              "name": "Marketing",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "82cf073937e8df43dbc8a4d18641cd9a1409a0a3",
+        "uid": "rubeus",
+        "inactive": null,
+        "identity": {
+          "id": "2020e818dbe412caf9c1d31911e5d27d0c4a4b60",
+          "uid": "rubeus",
+          "fullName": "Rubeus Hagrid",
+          "primaryEmail": "rubeus@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/e/ea/P5_Rubeushagrid.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "2168cc597f94a00ad08b30b4d96d02620f4435bf",
+                "uid": "rubeus",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "rubeus" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "e300a1fc0a2a6ad629619b8c53078afdd0a86b86",
+                "uid": "rubeus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "rubeus" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "8fa1bf85a7a0d3ddae43f5e79ef17b1b5b557c3e",
+                "uid": "rubeus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "rubeus" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "a340609481263741e93073576dba8e6c5c4d1c58",
+            "team": {
+              "id": "22b11c11cd9c80e9a39f302acbcc38c6c8d8c789",
+              "uid": "word-processing",
+              "name": "Word Processing",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "1b91d39017f870560fd11e3409293eeb38d647b7",
+        "uid": "seamus",
+        "inactive": null,
+        "identity": {
+          "id": "bcbfc6839990eb26ff536b690fbb70f8c5eb064a",
+          "uid": "seamus",
+          "fullName": "Seamus Finnigan",
+          "primaryEmail": "seamus@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/f/f7/Seamus_Finnigan_1998.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "df6c891327757468e46fe10d37ddf755f59ab598",
+                "uid": "seamus",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "seamus" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "c62e5cd5c15e869a1438d45f760277a0012a0361",
+                "uid": "seamus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "seamus" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "e00aaa1d5116a77378c5eb2c1707f1159aae99e8",
+                "uid": "seamus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "seamus" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "d40a0d3d878dc0661e18c5ade04a5ea6fc3085e7",
+            "team": {
+              "id": "897f3765604b671d14d3613c7eed63f96145f6bd",
+              "uid": "spreadsheets",
+              "name": "Spreadsheets",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "fdb7a227a46b015d8bbeae78fa0ef246c469eb29",
+        "uid": "severus",
+        "inactive": null,
+        "identity": {
+          "id": "cf0e5db1c71519bf0f8f0696e2318640dac2a070",
+          "uid": "severus",
+          "fullName": "Severus Snape",
+          "primaryEmail": "severus@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/a/a3/Severus_Snape.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "00863d08472561426e4ddddb2ed51ae705baeffd",
+                "uid": "severus",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "severus" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "e723e0f4224fc419a4b70fad29c83f34bee05beb",
+                "uid": "severus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "severus" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "f2e51bc15bb30d0a4743924e8b98f893545f0a2e",
+                "uid": "severus",
+                "source": "Mock"
+              },
+              "identity": { "uid": "severus" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "c04bf2e23359895585b26615639357461e49f056",
+            "team": {
+              "id": "b980fd6a62a5fdad73fdfe8ebc77f078819b92cb",
+              "uid": "cloud",
+              "name": "Cloud",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "5e370a1c3abe57f0e6ad7fe22d11822deafd6816",
+        "uid": "sirius",
+        "inactive": null,
+        "identity": {
+          "id": "4881119ecffebe237438f333aebb2224b249e054",
+          "uid": "sirius",
+          "fullName": "Sirius Black",
+          "primaryEmail": "sirius@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/b/bc/OOTP_promo_front_closeup_Sirius_Black.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "d130e549679d24651c51752757b22679a2ebb972",
+                "uid": "sirius",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "sirius" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "058d11d79cf26c047e87a17f5985036efb803933",
+                "uid": "sirius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "sirius" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "18929e8df3bc10b65fa2792c366bde68b36d2625",
+                "uid": "sirius",
+                "source": "Mock"
+              },
+              "identity": { "uid": "sirius" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "11fb34140de38eb1c5a885a3a0423f4d497eac5f",
+            "team": {
+              "id": "30a2f7de0bed096768e6ac6457b36e20a594e3db",
+              "uid": "sales",
+              "name": "Sales",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "a1f2ed93af025e48e8d48c32e5731362184fd707",
+        "uid": "susan",
+        "inactive": null,
+        "identity": {
+          "id": "230dc328b7193bc8f9c58069a6ef3ec90cba0d9f",
+          "uid": "susan",
+          "fullName": "Susan Bones",
+          "primaryEmail": "susan@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/7/7f/SusanBones.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "c48329d9a64023b785521312d031378e63d26068",
+                "uid": "susan",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "susan" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "c0facd861e4e5ac59e491995f6e4eee26d0ad889",
+                "uid": "susan",
+                "source": "Mock"
+              },
+              "identity": { "uid": "susan" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "2c458ba2d79dfd0ab6db8c13e50175701138e968",
+                "uid": "susan",
+                "source": "Mock"
+              },
+              "identity": { "uid": "susan" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "a6b948d3cca9082931eddfca803b764ff8ed159b",
+            "team": {
+              "id": "2edd826c3df2048f8d82128826ac49cfb32958af",
+              "uid": "slideshow",
+              "name": "Slideshow",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "c32551c145689391116c4fceabc308b3744d65a7",
+        "uid": "terry",
+        "inactive": null,
+        "identity": {
+          "id": "bf0f65163a8ffde19f8937a53cb201a49be2ce23",
+          "uid": "terry",
+          "fullName": "Terry Boot",
+          "primaryEmail": "terry@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/f/f8/TerryBoot.png",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "ee73cd1fd01bdc8eb855f1f68ef9c4c3fa5acbb9",
+                "uid": "terry",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "terry" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "8952fa92629c067646ab482a4c88575949bef464",
+                "uid": "terry",
+                "source": "Mock"
+              },
+              "identity": { "uid": "terry" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "aec3eb3fecf10069158e031d9d5eea05fa489680",
+                "uid": "terry",
+                "source": "Mock"
+              },
+              "identity": { "uid": "terry" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "a9b0c9e7387cfbbe79b4276eeef48c2a09436f82",
+            "team": {
+              "id": "36d38cf1a764af48f75935eb8e7243de24eb7525",
+              "uid": "email",
+              "name": "Email",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "8e04be120edeb42e7d0311ba5f951d07b08f5811",
+        "uid": "vernon",
+        "inactive": null,
+        "identity": {
+          "id": "b7f6128ca5d1ec14bff93333a3acde7be0602874",
+          "uid": "vernon",
+          "fullName": "Vernon Dursley",
+          "primaryEmail": "vernon@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/8/83/P5_Vernon_Dursley.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "b0543d92ad1250f123cb2926575a0a7686725cfb",
+                "uid": "vernon",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "vernon" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "c031428e28c5cebb2a9c9ddeea3384e9c2e8cd3e",
+                "uid": "vernon",
+                "source": "Mock"
+              },
+              "identity": { "uid": "vernon" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "e084ab7d285c99602d5a9388061a0a72e412250f",
+                "uid": "vernon",
+                "source": "Mock"
+              },
+              "identity": { "uid": "vernon" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "946fa54e07c795f1a0d3d12c31e7dbf841716db1",
+            "team": {
+              "id": "e921d3852b88a041aac084b0ae2157e78ded74d0",
+              "uid": "financial-services",
+              "name": "Financial Services",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "e8e6648be9860a3e90c34a2067f911bc7cbbc621",
+        "uid": "viktor",
+        "inactive": null,
+        "identity": {
+          "id": "b89951bbda0d8cd3019cb60a204bc0a49913c816",
+          "uid": "viktor",
+          "fullName": "Viktor Krum",
+          "primaryEmail": "viktor@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/esharrypotter/images/1/18/P7_Viktor_Krum.PNG",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "a1fdfa6eb0100bc21f54c0ebf8fe6d360a565465",
+                "uid": "viktor",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "viktor" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "d88ab45f5a2e0e5eddc7b12ce327ec923d675fcb",
+                "uid": "viktor",
+                "source": "Mock"
+              },
+              "identity": { "uid": "viktor" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "a0250f33b0a1eefc454416102d51070bbf2046d2",
+                "uid": "viktor",
+                "source": "Mock"
+              },
+              "identity": { "uid": "viktor" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "34ac4ee411b64aeffb2ccecb6941780ba9e343a5",
+            "team": {
+              "id": "22b11c11cd9c80e9a39f302acbcc38c6c8d8c789",
+              "uid": "word-processing",
+              "name": "Word Processing",
+              "color": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "d8a18f25dc14a68e9f6a6bee3dcbe3ff60d638d5",
+        "uid": "vincent",
+        "inactive": null,
+        "identity": {
+          "id": "267c9955220fb23cf6d10e535a88f3a371dcc89f",
+          "uid": "vincent",
+          "fullName": "Vincent Crabbe",
+          "primaryEmail": "vincent@dm.com",
+          "photoUrl": "https://static.wikia.nocookie.net/harrypotter/images/b/ba/Vincent_Crabbe.jpg",
+          "vcsUsers": [
+            {
+              "vcsUser": {
+                "__typename": "vcs_User",
+                "id": "d978fd03ccf9903d99f72173b4e84baf20c54de1",
+                "uid": "vincent",
+                "source": "GitHub"
+              },
+              "identity": { "uid": "vincent" }
+            }
+          ],
+          "tmsUsers": [
+            {
+              "tmsUser": {
+                "__typename": "tms_User",
+                "id": "cf6b4459d36c153518696f27a3fad910e82a2db4",
+                "uid": "vincent",
+                "source": "Mock"
+              },
+              "identity": { "uid": "vincent" }
+            }
+          ],
+          "imsUsers": [],
+          "calUsers": [
+            {
+              "calUser": {
+                "__typename": "cal_User",
+                "id": "7b4cff81cbda227b0bb7335ed980a5a210f36818",
+                "uid": "vincent",
+                "source": "Mock"
+              },
+              "identity": { "uid": "vincent" }
+            }
+          ]
+        },
+        "teams": [
+          {
+            "id": "2f5f9ee4248686ff3fd41b286f6877ead1b45438",
+            "team": {
+              "id": "2c184ee95c512427b7a05e6cd71e9a3c7ba8de6f",
+              "uid": "consumer-goods",
+              "name": "Consumer Goods",
+              "color": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

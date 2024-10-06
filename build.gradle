@@ -1,0 +1,78 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { setUrl("https://maven.vaadin.com/vaadin-prereleases") }
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+    configurations.classpath {
+        exclude group: 'com.vaadin', module: 'hilla-engine-core'
+    }
+}
+
+plugins {
+    id 'war'
+    id 'org.gretty' version '4.1.1'
+    id 'com.vaadin'
+}
+
+defaultTasks("build")
+
+repositories {
+    mavenCentral()
+    maven { setUrl("https://maven.vaadin.com/vaadin-prereleases") }
+    maven { url "https://plugins.gradle.org/m2/" }
+    maven { url "https://maven.vaadin.com/vaadin-addons" }
+}
+
+gretty {
+    contextPath = "/"
+    servletContainer = 'jetty11'
+}
+
+// The following pnpmEnable = false is not needed as npm is used by default,
+// this is just an example of how to configure the Gradle Vaadin Plugin:
+// for more configuraion options please see: https://vaadin.com/docs/latest/guide/start/gradle/#all-options
+vaadin {
+    pnpmEnable = false
+}
+
+dependencies {
+    implementation enforcedPlatform("com.vaadin:vaadin-bom:$vaadinVersion")
+
+    // Vaadin
+    implementation("com.vaadin:vaadin-core") {
+        exclude group: 'com.vaadin', module: 'hilla-dev'
+    }
+
+    // logging
+    // currently we are logging through the SLF4J API to SLF4J-Simple. See src/main/resources/simplelogger.properties file for the logger configuration
+    implementation "org.slf4j:slf4j-simple:2.0.7"
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+    implementation 'org.vaadin.klaudeta:grid-pagination:4.0.0'
+    implementation 'com.flowingcode.addons:font-awesome-iron-iconset:5.3.0'
+}
+
+// Configure the asadmin executable location
+ext.setProperty('asadminDir', "E:\\dev\\payara6\\glassfish\\bin");
+ext.setProperty('asadminFile', System.properties['os.name'].toLowerCase().contains('windows')? ['cmd', '/c', 'asadmin.bat']: './asadmin')
+
+task startServer(type:Exec) {
+    workingDir asadminDir;
+    commandLine asadminFile;
+
+    args "start-domain", "--debug", "domain1"
+}
+
+task stopServer(type:Exec) {
+    workingDir asadminDir;
+    commandLine asadminFile;
+
+    args "stop-domain"
+}
+
+task redeploy(dependsOn: 'war', type:Exec) {
+    workingDir asadminDir;
+    commandLine asadminFile;
+
+    args "deploy", "--force=true", "--contextroot=/", "--name=farosApp", "${war.archivePath}";
+}
