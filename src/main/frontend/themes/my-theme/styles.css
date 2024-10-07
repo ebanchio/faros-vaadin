@@ -8,6 +8,10 @@ body {
     width: 100%;
     box-sizing: border-box;
     background-color: #FFF;
+    box-shadow: 0px 2px 5px 0px rgba(111,114,132,0.15);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(111,114,132,0.15);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(111,114,132,0.15);
+    z-index: 1;
 }
 
 .sectionLayout {

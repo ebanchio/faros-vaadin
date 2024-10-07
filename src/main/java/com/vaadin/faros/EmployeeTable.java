@@ -15,6 +15,7 @@ import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
+import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.model.Employee;
 import com.vaadin.model.EmployeeFilter;
 import com.vaadin.utils.FarosUtils;
@@ -240,9 +241,9 @@ public class EmployeeTable extends VerticalLayout {
         txtFieldNameFilter.setPlaceholder("Search employees by name...");
         txtFieldNameFilter.setPrefixComponent(VaadinIcon.SEARCH.create());
         txtFieldNameFilter.setWidthFull();
+        txtFieldNameFilter.setValueChangeMode(ValueChangeMode.EAGER);
 
         txtFieldNameFilter.addValueChangeListener(event -> {
-            //if (FarosUtils.empty(event.getValue())) grid.setItems(empleados);
             filterByName(event.getValue().toLowerCase());
         });
         add(txtFieldNameFilter);
@@ -360,11 +361,6 @@ public class EmployeeTable extends VerticalLayout {
         }).addEventData("event.stopPropagation()");
         filterButton.add(new Div(filterBy.getLabel()), removeFilterButton);
 
-        TextField txtFilterOptions = new TextField();
-        txtFilterOptions.setPlaceholder(filterPlaceholder);
-        txtFilterOptions.setPrefixComponent(VaadinIcon.SEARCH.create());
-        txtFilterOptions.addClassName("filterGridTextField");
-
         // Crear una Grid con selección múltiple
         Grid<String> filterGrid = new Grid<>();
         filterGrid.setItems(options);
@@ -374,6 +370,17 @@ public class EmployeeTable extends VerticalLayout {
         filterGrid.addThemeVariants(GridVariant.LUMO_NO_BORDER);
         filterGrid.addThemeVariants(GridVariant.LUMO_NO_ROW_BORDERS);
         filterGrid.addThemeVariants(GridVariant.LUMO_COMPACT);
+
+
+        TextField txtFilterOptions = new TextField();
+        txtFilterOptions.setPlaceholder(filterPlaceholder);
+        txtFilterOptions.setPrefixComponent(VaadinIcon.SEARCH.create());
+        txtFilterOptions.addClassName("filterGridTextField");
+        txtFilterOptions.setValueChangeMode(ValueChangeMode.EAGER);
+        txtFilterOptions.addValueChangeListener(event ->
+                filterGrid.setItems(options.stream().filter(op -> op.toLowerCase().
+                        contains(event.getValue().toLowerCase())).collect(Collectors.toList())));
+
 
         Div selectAllOption = new Div("Select all");
         selectAllOption.addClassName("filterGridSelectAll");
