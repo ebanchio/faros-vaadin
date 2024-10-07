@@ -1,8 +1,8 @@
 ﻿# faros-vaadin
 
-### Herramientas:
+### Tools:
 
-Instalar las siguientes herramientas necesarias:
+Install required tools:
 
 - [Java 21](http://www.java.com/)
 
