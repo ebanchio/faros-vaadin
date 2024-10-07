@@ -18,7 +18,7 @@
                 "__typename": "vcs_User",
                 "id": "22c52ae992c72f0387fb5ad256915f0a4d0c6922",
                 "uid": "alastor",
-                "source": "GitHub"
+                "source": "Orderly"
               },
               "identity": { "uid": "alastor" }
             }
@@ -62,7 +62,7 @@
       {
         "id": "4eede4cc34f7a406060ebff2ae87b4a8a1922918",
         "uid": "albus",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "5572ee96cb7b34c18dd61212ca6503e2564aa8a8",
           "uid": "albus",
@@ -119,7 +119,7 @@
       {
         "id": "46fb4078edc0277c7e83ff23d65ebae2a09f7644",
         "uid": "arthur",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "2228d83cc21abaee6c981ca3980a6c545e0eab60",
           "uid": "arthur",
@@ -290,7 +290,7 @@
       {
         "id": "d0f49101c06a01b1df1fdb12e12459b394571c0a",
         "uid": "cedric",
-        "inactive": null,
+        "inactive": true,
         "identity": {
           "id": "620b6b96e67d68ce660143415bfc1b4c2de4452d",
           "uid": "cedric",

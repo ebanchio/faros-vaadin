@@ -30,7 +30,7 @@ public class Employee {
         return uid;
     }
 
-    public Object getInactive() {
+    public Boolean getInactive() {
         return inactive;
     }
 

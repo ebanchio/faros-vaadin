@@ -169,3 +169,62 @@ body {
 
 /****************** FIN: DETAIL STYLES ****************************/
 
+
+
+
+
+/**********************************/
+.filterGridLabel {
+    padding: 1em;
+    font-weight: 600;
+    color: #023D67;
+}
+
+.filterGridTextField {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5em;
+}
+
+.filterGridSelectAll {
+    color: #03749C;
+    cursor: pointer;
+    padding: 0 calc(.5em + 4px);
+    font-size: 16px;
+}
+
+.filterGrid {
+    width: 300px;
+    height: 150px;
+    color: #023D67;
+    font-weight: 400;
+}
+
+.filterButtonLayout {
+    padding: .5em 1em;
+    border-top: 1px solid #DADFF1;
+    background: #F2F3F7;
+    width: 100%;
+}
+
+.filterSecondaryButton {
+    border-radius: 4px;
+    border: 1px solid #15B1D7;
+    background-color: #E2F7FF;
+    color: #023D67;
+    font-size: 14px;
+    padding: 2px 8px;
+    height: 36px;
+    cursor: pointer;
+    align-items: center;
+    user-select: none;
+}
+
+.filterSecondaryButton > vaadin-icon {
+    height: 1.5em;
+    max-height: 22px;
+    margin-left: .5em;
+}
+
+
+

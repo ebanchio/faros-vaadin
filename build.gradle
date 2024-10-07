@@ -50,6 +50,8 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
     implementation 'org.vaadin.klaudeta:grid-pagination:4.0.0'
     implementation 'com.flowingcode.addons:font-awesome-iron-iconset:5.3.0'
+    implementation 'com.vaadin.componentfactory:popup:24.0.4'
+
 }
 
 // Configure the asadmin executable location
