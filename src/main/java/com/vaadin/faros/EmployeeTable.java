@@ -3,6 +3,7 @@ package com.vaadin.faros;
 import com.flowingcode.vaadin.addons.fontawesome.FontAwesome;
 import com.vaadin.componentfactory.Popup;
 import com.vaadin.componentfactory.PopupPosition;
+import com.vaadin.faros.EmployeeTable.FilterType;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.grid.Grid;
@@ -24,6 +25,8 @@ import org.vaadin.klaudeta.PaginatedGrid;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
+
+import javax.swing.GroupLayout.Alignment;
 
 public class EmployeeTable extends VerticalLayout {
 
@@ -88,8 +91,14 @@ public class EmployeeTable extends VerticalLayout {
 
         grid = new PaginatedGrid<>();
 
-        grid.addComponentColumn(e -> getNameColumn(e)).setHeader("Name").setSortable(true).setWidth("calc((100% - 110px) * 0.3)");
-        grid.addComponentColumn(e -> getStatusColumn(e)).setHeader("Tracking Status").setSortable(true).setWidth("calc((100% - 110px) * 0.2)");
+        Grid.Column<Employee> nameColumn = grid.addComponentColumn(e -> getNameColumn(e)).setHeader("Name").setWidth("calc((100% - 110px) * 0.3)");
+        nameColumn.setSortable(true).setSortProperty("fullName");
+        nameColumn.setComparator(Comparator.comparing(e -> e.getIdentity().getFullName()));
+
+        Grid.Column<Employee> statusColumn = grid.addComponentColumn(e -> getStatusColumn(e)).setHeader("Tracking Status").setWidth("calc((100% - 110px) * 0.2)");
+        statusColumn.setSortable(true).setSortProperty("inactive");
+        statusColumn.setComparator(Comparator.comparing(e -> e.isActive()));
+
         grid.addComponentColumn(e -> getTeamsColumn(e)).setHeader("Teams").setWidth("calc((100% - 110px) * 0.3)");
         grid.addComponentColumn(e -> getConnectedAccountsColumn(e)).setHeader("Accounts Connected").setWidth("calc((100% - 110px) * 0.2)");
         grid.addComponentColumn(e -> new Button("View", ev -> mostrarEmpleado(e))).setHeader("").setWidth("110px");
