@@ -53,28 +53,3 @@ dependencies {
     implementation 'com.vaadin.componentfactory:popup:24.0.4'
 
 }
-
-// Configure the asadmin executable location
-ext.setProperty('asadminDir', "E:\\dev\\payara6\\glassfish\\bin");
-ext.setProperty('asadminFile', System.properties['os.name'].toLowerCase().contains('windows')? ['cmd', '/c', 'asadmin.bat']: './asadmin')
-
-task startServer(type:Exec) {
-    workingDir asadminDir;
-    commandLine asadminFile;
-
-    args "start-domain", "--debug", "domain1"
-}
-
-task stopServer(type:Exec) {
-    workingDir asadminDir;
-    commandLine asadminFile;
-
-    args "stop-domain"
-}
-
-task redeploy(dependsOn: 'war', type:Exec) {
-    workingDir asadminDir;
-    commandLine asadminFile;
-
-    args "deploy", "--force=true", "--contextroot=/", "--name=farosApp", "${war.archivePath}";
-}
