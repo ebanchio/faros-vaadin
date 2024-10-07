@@ -1,5 +1,11 @@
 ﻿# faros-vaadin
 
+### Herramientas:
+
+Instalar las siguientes herramientas necesarias:
+
+- [Java 21](http://www.java.com/)
+
 In the project directory, you can run:
 
 ### `./gradlew clean appRun`
