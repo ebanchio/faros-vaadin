@@ -3,7 +3,11 @@ package com.vaadin.faros;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.flowingcode.vaadin.addons.fontawesome.FontAwesome;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.html.Div;
+import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.splitlayout.SplitLayout;
@@ -22,6 +26,7 @@ import java.util.stream.Collectors;
  * The main view contains a button and a click listener.
  */
 @Route("")
+@CssImport(value = "./styles/vaadin-grid-styles.css", themeFor = "vaadin-grid")
 public class MainView extends VerticalLayout {
 
     /**
@@ -163,11 +168,24 @@ public class MainView extends VerticalLayout {
             FontAwesome.Solid.Icon helpIcon = FontAwesome.Solid.FILE_CIRCLE_QUESTION.create();
             helpIcon.setSize("16px");
 
+            HorizontalLayout routeRowLayout = new HorizontalLayout();
             HorizontalLayout route = new HorizontalLayout();
-            route.add(new Div(sectionRouteInfo.stream().collect(Collectors.joining(" > "))), helpIcon);
+
+            Button newEmployeeButton = new Button();
+            newEmployeeButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
+            newEmployeeButton.addThemeVariants(ButtonVariant.LUMO_LARGE);
+            newEmployeeButton.setPrefixComponent(FontAwesome.Solid.PLUS.create());
+            newEmployeeButton.setText("New");
+            newEmployeeButton.addClickListener(ev -> Notification.show("Add employee"));
+            routeRowLayout.setFlexGrow(1, route);
+
+            route.add(new Div(String.join(" > ", sectionRouteInfo)), helpIcon, newEmployeeButton);
             route.addClassName("sectionRoute");
             route.setAlignItems(Alignment.CENTER);
-            sectionLayout.add(route);
+
+            routeRowLayout.add(route, newEmployeeButton);
+            routeRowLayout.setWidthFull();
+            sectionLayout.add(routeRowLayout);
         }
 
         initEmployeeTable();

@@ -1,0 +1,9 @@
+:host [part~="header-cell"] {
+    background-color: #F2F3F7;
+    font-weight: 600;
+}
+
+:host [part~="row"]:hover > [part~="body-cell"],
+:host [part~="selected-row"] > [part~="body-cell"]{
+    background-color: #E2F7FF !important;
+}

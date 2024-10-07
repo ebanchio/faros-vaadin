@@ -6,6 +6,7 @@ import com.vaadin.componentfactory.PopupPosition;
 import com.vaadin.faros.EmployeeTable.FilterType;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
+import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.grid.GridVariant;
 import com.vaadin.flow.component.html.Div;
@@ -78,7 +79,7 @@ public class EmployeeTable extends VerticalLayout {
         title.addClassName("sectionTitle");
 
         Div descripcion = new Div("Easily assign employees to teams, include them for tracking in team productivity status, and manage their connected accounts.  ");
-        descripcion.addClassName("sectionDsecription");
+        descripcion.addClassName("sectionDescription");
 
         add(title, descripcion);
 
@@ -91,16 +92,16 @@ public class EmployeeTable extends VerticalLayout {
 
         grid = new PaginatedGrid<>();
 
-        Grid.Column<Employee> nameColumn = grid.addComponentColumn(e -> getNameColumn(e)).setHeader("Name").setWidth("calc((100% - 110px) * 0.3)");
+        Grid.Column<Employee> nameColumn = grid.addComponentColumn(this::getNameColumn).setHeader("Name").setWidth("calc((100% - 110px) * 0.3)");
         nameColumn.setSortable(true).setSortProperty("fullName");
         nameColumn.setComparator(Comparator.comparing(e -> e.getIdentity().getFullName()));
 
-        Grid.Column<Employee> statusColumn = grid.addComponentColumn(e -> getStatusColumn(e)).setHeader("Tracking Status").setWidth("calc((100% - 110px) * 0.2)");
+        Grid.Column<Employee> statusColumn = grid.addComponentColumn(this::getStatusColumn).setHeader("Tracking Status").setWidth("calc((100% - 110px) * 0.2)");
         statusColumn.setSortable(true).setSortProperty("inactive");
-        statusColumn.setComparator(Comparator.comparing(e -> e.isActive()));
+        statusColumn.setComparator(Comparator.comparing(Employee::isActive));
 
-        grid.addComponentColumn(e -> getTeamsColumn(e)).setHeader("Teams").setWidth("calc((100% - 110px) * 0.3)");
-        grid.addComponentColumn(e -> getConnectedAccountsColumn(e)).setHeader("Accounts Connected").setWidth("calc((100% - 110px) * 0.2)");
+        grid.addComponentColumn(this::getTeamsColumn).setHeader("Teams").setWidth("calc((100% - 110px) * 0.3)");
+        grid.addComponentColumn(this::getConnectedAccountsColumn).setHeader("Accounts Connected").setWidth("calc((100% - 110px) * 0.2)");
         grid.addComponentColumn(e -> new Button("View", ev -> mostrarEmpleado(e))).setHeader("").setWidth("110px");
 
         // Sets the max number of items to be rendered on the grid for each page
@@ -120,7 +121,7 @@ public class EmployeeTable extends VerticalLayout {
     private HorizontalLayout getNameColumn(Employee e) {
         Div avatar = new Div();
 
-        avatar.getStyle().set("background-image", String.format("url('%s')", e.getIdentity().getPhotoUrl()));
+        avatar.getStyle().set("background-image", String.format("url('%s'), url('img/user.png')", e.getIdentity().getPhotoUrl()));
         avatar.addClassName("employeeTableAvatar");
 
         Div name = new Div(e.getIdentity().getFullName());
@@ -261,6 +262,7 @@ public class EmployeeTable extends VerticalLayout {
 
         HorizontalLayout filtersLayout = new HorizontalLayout();
         filtersLayout.setPadding(false);
+        filtersLayout.getStyle().set("gap", "var(--lumo-space-s)");
 
         // Botón para abrir el menú de filtros
         addMainFilterButton(filtersLayout);
@@ -306,6 +308,7 @@ public class EmployeeTable extends VerticalLayout {
         HorizontalLayout activeFiltersLayout = new HorizontalLayout();
         activeFiltersLayout.setPadding(false);
         activeFiltersLayout.setAlignItems(Alignment.CENTER);
+        activeFiltersLayout.getStyle().set("gap", "var(--lumo-space-s)");
 
         // Botones Apply y Cancel
         Button applyButton = new Button("Apply", event -> {

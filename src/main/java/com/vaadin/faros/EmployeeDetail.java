@@ -12,7 +12,6 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.model.Employee;
-import com.vaadin.utils.FarosUtils;
 
 public class EmployeeDetail extends VerticalLayout {
 
@@ -80,6 +79,7 @@ public class EmployeeDetail extends VerticalLayout {
     private void addActionButtons() {
         Button buttonSave = new Button("Save", event -> Notification.show("Save"));
         buttonSave.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
+        buttonSave.setEnabled(false);
         Button buttonCancel = new Button("Cancel", event -> removeCurrent());
 
         HorizontalLayout buttonsLayout = new HorizontalLayout(buttonSave, buttonCancel);
